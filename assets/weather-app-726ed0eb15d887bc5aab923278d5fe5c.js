@@ -951,7 +951,7 @@ define("weather-app/templates/contact", ["exports"], function (exports) {
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("img");
         dom.setAttribute(el5, "class", "media-object img-responsive");
-        dom.setAttribute(el5, "src", "assets/img/profile-photo.jpg");
+        dom.setAttribute(el5, "src", "assets/img/profile-photo-51d1ba6c4655bc549b5d97551ef4a793.jpg");
         dom.setAttribute(el5, "width", "100px");
         dom.setAttribute(el5, "alt", "...");
         dom.appendChild(el4, el5);
@@ -1312,7 +1312,7 @@ define("weather-app/templates/index", ["exports"], function (exports) {
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("img");
         dom.setAttribute(el5, "class", "img-responsive");
-        dom.setAttribute(el5, "src", "assets/img/open-weather-map.jpg");
+        dom.setAttribute(el5, "src", "assets/img/open-weather-map-ae1cac6a32b6ebab5fa005c05695e603.jpg");
         dom.setAttribute(el5, "alt", "");
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n                ");
@@ -1470,7 +1470,7 @@ define("weather-app/templates/index", ["exports"], function (exports) {
         dom.appendChild(el6, el7);
         var el7 = dom.createElement("img");
         dom.setAttribute(el7, "class", "media-object img-responsive");
-        dom.setAttribute(el7, "src", "assets/img/ember-getting-started-image.png");
+        dom.setAttribute(el7, "src", "assets/img/ember-getting-started-image-9fa193741d5b8f6f2964178d3c75dea1.png");
         dom.setAttribute(el7, "alt", "...");
         dom.appendChild(el6, el7);
         var el7 = dom.createTextNode("\n				    ");
@@ -1706,7 +1706,7 @@ define("weather-app/templates/index", ["exports"], function (exports) {
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("img");
         dom.setAttribute(el5, "class", "media-object img-responsive");
-        dom.setAttribute(el5, "src", "assets/img/choose-local-and-city.png");
+        dom.setAttribute(el5, "src", "assets/img/choose-local-and-city-f42e293347c51d0f0ecd92ebee197945.png");
         dom.setAttribute(el5, "alt", "...");
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n                ");
@@ -1719,7 +1719,7 @@ define("weather-app/templates/index", ["exports"], function (exports) {
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("img");
         dom.setAttribute(el5, "class", "media-object img-responsive");
-        dom.setAttribute(el5, "src", "assets/img/have-look-result.png");
+        dom.setAttribute(el5, "src", "assets/img/have-look-result-7a67b8793b44f13ca636b296dc8d977e.png");
         dom.setAttribute(el5, "alt", "...");
         dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n                ");
@@ -1999,8 +1999,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("weather-app/app")["default"].create({"APIHOST":"http://api.openweathermap.org/data/2.5","APIKEY":"cb7f79462edd410008232502ce5fa718","name":"weather-app","version":"0.0.0+8afd948d"});
+  require("weather-app/app")["default"].create({"APIHOST":"http://api.openweathermap.org/data/2.5","APIKEY":"cb7f79462edd410008232502ce5fa718","name":"weather-app","version":"0.0.0+d2c01f64"});
 }
 
 /* jshint ignore:end */
-//# sourceMappingURL=weather-app.map
